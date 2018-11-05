@@ -1,2 +1,4 @@
 .idea/
 quizmaster/target/
+*.class
+*.log
