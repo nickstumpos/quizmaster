@@ -57,6 +57,30 @@ object QuestionProviderActor {
       ):: QuestionAnswer("Arrange the Web Sites by popularity (October 2018) (least to most hits)",
         "Twitch.tv" :: "Amazon.com" :: "Baidu.com" :: "Google.com"  :: Nil
 
+      ):: QuestionAnswer("Arrange the Web Sites by founding (earliest first)",
+        "imdb.com" :: "Yahoo.com" :: "Amazon.com" :: "Google.com"  :: Nil
+
+      ):: QuestionAnswer("Arrange the Programming language by creation date (earliest first)",
+        "FORTRAN" :: "LISP" :: "BASIC" :: "C"  :: Nil
+
+      ) :: QuestionAnswer("Arrange the Numbers in alphabetical order",
+        "eight"::"five" :: "four" :: "one" :: "six"  :: Nil
+
+      ) :: QuestionAnswer("Arrange the Colors by their letter count (smallest first)",
+        "red"::"blue" :: "green" :: "yellow"  :: Nil
+
+      ) :: QuestionAnswer("Arrange the Books by length (shortest to longest word count)",
+        "The Lord of the Rings (All 3)" :: "War and Peace" :: "King James Authorized Bible"  :: "Les Miserables" :: Nil
+
+      ):: QuestionAnswer("Arrange the Periods of the earth (earliest first)",
+        "Cambrian" :: "Jurassic" :: "Cretaceous" :: "Neogene" :: Nil
+
+      ) :: QuestionAnswer("Arrange the Elements by weight (lightest first)",
+        "Hydrogen" :: "neon" :: "Copper" :: "Cesium" :: Nil
+
+      )  :: QuestionAnswer("Arrange the TV shows by airtime (shortest running first)",
+        "The Simpsons" :: "	Mister Rogers' Neighborhood" :: "As the World Turns" :: "Meet the Press" :: Nil
+
       ) :: Nil
 
   def props = Props[QuestionProviderActor]
