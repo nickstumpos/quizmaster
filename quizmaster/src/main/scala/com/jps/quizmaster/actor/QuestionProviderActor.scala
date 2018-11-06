@@ -36,8 +36,26 @@ object QuestionProviderActor {
       )  :: QuestionAnswer("List the order of population of the followoing countries (least to most)",
         "Greece" :: "Brasil" :: "USA" :: "China" :: Nil
 
-      )  :: QuestionAnswer("Arrange the monetary amounts from ost to least",
+      )  :: QuestionAnswer("Arrange the monetary amounts from Most to least",
         "1 Nickle" :: "6 pennies" :: "2 quarters" :: "8 dimes" :: Nil
+
+      )  :: QuestionAnswer("Arrange the units from smallest to biggest",
+        "minute" :: "day" :: "week" :: "fortnight" :: Nil
+
+      )  :: QuestionAnswer("Arrange the Continents from smallest to biggest",
+        "Australia " :: "Europe" :: "Antarctica" :: "South America" :: Nil
+
+      ) :: QuestionAnswer("Arrange the Books by publication date (Oldest first)",
+        "grapes of wrath" :: "1984 " :: "to kill a mockingbird" :: "Harry Potter and the Sorcerer's Stone"  :: Nil
+
+      ) :: QuestionAnswer("Arrange the Star Wars in Episodic order",
+        "The Phantom Menace" :: "A New Hope" :: "The Empire Strikes Back" :: "The Force Awakens"  :: Nil
+
+      ) :: QuestionAnswer("Arrange the Operating Systems\\Kernels by release date (Oldest first)",
+        "MSDOS" :: "OS/2" :: "Linux" :: "Windows NT"  :: Nil
+
+      ):: QuestionAnswer("Arrange the Web Sites by popularity (October 2018) (least to most hits)",
+        "Twitch.tv" :: "Amazon.com" :: "Baidu.com" :: "Google.com"  :: Nil
 
       ) :: Nil
 
