@@ -7,4 +7,4 @@ phases:
 artifacts:
   files:
     - quizmaster/target/quizmaster-1.0-SNAPSHOT.jar
-    - quizmaster/Procfile
+    - Procfile

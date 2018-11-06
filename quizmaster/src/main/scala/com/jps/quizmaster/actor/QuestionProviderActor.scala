@@ -23,6 +23,22 @@ object QuestionProviderActor {
         "Apple" :: "Banana" :: "Orange" :: "Pineapple" :: Nil
       ) :: QuestionAnswer("Arrange the shapes in ascending order of edges.",
         "Triangle" :: "Square" :: "Pentagon" :: "dodecagon" :: Nil
+
+      ):: QuestionAnswer("List the following four inventions in order staring with the earliest",
+        "Battery" :: "Jeans" :: "Deisel Engine" :: "Hovercraft" :: Nil
+
+      ) :: QuestionAnswer("List the following 4 lengths in order starting with the smallest",
+        "25cm" :: "10 inches" :: "1 Yard" :: "1000mm" :: Nil
+
+      ) :: QuestionAnswer("List the disney films in order from oldest to most recent",
+        "Snow White and the Seven Dwarfs" :: "Pinocchio" :: "Cinderella" :: "Sleeping Beauty" :: Nil
+
+      )  :: QuestionAnswer("List the order of population of the followoing countries (least to most)",
+        "Greece" :: "Brasil" :: "USA" :: "China" :: Nil
+
+      )  :: QuestionAnswer("Arrange the monetary amounts from ost to least",
+        "1 Nickle" :: "6 pennies" :: "2 quarters" :: "8 dimes" :: Nil
+
       ) :: Nil
 
   def props = Props[QuestionProviderActor]
