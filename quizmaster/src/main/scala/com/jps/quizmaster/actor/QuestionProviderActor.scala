@@ -21,6 +21,8 @@ object QuestionProviderActor {
         "Neck" :: "Legs" :: "Fingers" :: "Hair" :: Nil
       ) :: QuestionAnswer("Arrange the following fruit in ascending alphabetical order.",
         "Apple" :: "Banana" :: "Orange" :: "Pineapple" :: Nil
+      ) :: QuestionAnswer("Arrange the shapes in ascending order of edges.",
+        "Triangle" :: "Square" :: "Pentagon" :: "dodecagon" :: Nil
       ) :: Nil
 
   def props = Props[QuestionProviderActor]
